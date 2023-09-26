@@ -1,38 +1,83 @@
 .App {
+  justify-content: left;
+  background-image: url(./assets/DSCF7047.jpg);
+  background-color: rgb(0,0,0,0.5);
+  background-size: contain;
+  background-blend-mode: color-burn;
+  height: 200%;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-width: 1500px;
+}
+
+.container2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  padding-top: 100px;
+}
+.container2 > h1 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container2 > img {
+  position: absolute;
+  left:2%;
+  top: 20px;
+}
+.container {
+  background-image: url(./assets/Border.png);
+  background-size: 100% 700px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.peoplePhoto {
+  height: 600px;
+  width: auto;
+  object-fit: cover;
+  justify-content: right;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+.peoplePhoto > img {
+  height: 400px;
+  width: 250PX;
+  object-fit: cover;
+  margin-bottom: 10px;
+  position: relative;
+  left: 200px;
+  top:150px;
+  display: flex;
+  border: solid 5px rgb(0, 0, 0);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.peoplePhoto > h3 {
+  position: relative;
+  text-align: left;
+  margin-bottom: -12px;
+  position: relative;
+  left: 500px;
+  top: -250px;
+  width:400px;
+}
+.peoplePhoto > h2 {
+  position: relative;
+  text-align: left;
+  margin-bottom: -12px;
+  position: relative;
+  left: 500px;
+  top: -250px;
+  width:400px;
+  font-size: 30px;
+  border-bottom: dashed 3px black;
+}
+.peoplePhoto > h1 {
+  position: relative;
+  text-align: left;
+  margin-bottom: -12px;
+  position: relative;
+  left: 500px;
+  top: -300px;
+  font-size: 110px;
+  width:400px;
 }
