@@ -83,7 +83,7 @@ export default function Pages() {
             Nama: "Elves Oktavianus",
             TTL: "Pekanbaru, 26 Oktober 2004",
             Sosmed: "@elves_okt",
-            Quotes: "Dulu jadi ikan sekarang jadi nelayan",
+            Quotes: "Dulu jadi ikan sekarang jadi nelayan. Ayam berkokok diatas genteng",
             photo: Elves,
             class: 'IPS'
         },
@@ -379,7 +379,7 @@ export default function Pages() {
             Nama: "Felix Bryan",
             TTL: "Pekanbaru, 25 Oktober 2004",
             Sosmed: "@xmtthwkm",
-            Quotes: "I distance myself from bullshit.",
+            Quotes: "I distance myself from bullshit. Ayam berkokok diatas genteng, tak merokok tak ganteng",
             photo: FB,
             class: 'IPA'
         },
@@ -422,7 +422,7 @@ export default function Pages() {
             Quotes: "Our prime purpose in this life is to help others. And if you can't help them, at least don't hurt them.",
             photo: Queen,
             class: 'IPS'
-        },
+        }
     ];
     return (<div class="container2">
         <h1 style={{fontSize: "50px"}}>Year Book 2021/2022</h1>
