@@ -379,7 +379,7 @@ export default function Pages() {
             Nama: "Felix Bryan",
             TTL: "Pekanbaru, 25 Oktober 2004",
             Sosmed: "@xmtthwkm",
-            Quotes: "I distance myself from bullshit. Ayam berkokok diatas genteng, tak merokok tak ganteng",
+            Quotes: "I distance myself from bullshit. Ayam berkokok diatas genteng, tak merokok tak ganteng la Haiyoyo",
             photo: FB,
             class: 'IPA'
         },
