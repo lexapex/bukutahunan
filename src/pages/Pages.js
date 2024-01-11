@@ -1,4 +1,5 @@
 import Aika from "../assets/Aika.JPG"
+import Agustina from "../assets/Agustina.jpg"
 import Chentya from "../assets/Chentya.JPG"
 import Elves from "../assets/Elves.JPG"
 import Valen from "../assets/Valen.JPG"
@@ -46,6 +47,14 @@ import Witama from "../assets/witama.png"
 export default function Pages() {
     const Studnet = [1,2,3,4];
     const Student = [
+        {
+            Nama: "Agustina Huang",
+            TTL: "Pekanbaru, 15 Agustus 2004",
+            Sosmed: "@agustinahuang_",
+            Quotes: "You can't go back and change the beginning, but you can start where you are and change the ending",
+            photo: Agustina,
+            class: 'IPA'
+        },
         {
             Nama: "Aika Stevania",
             TTL: "Pekanbaru, 19 Oktober 2004",
@@ -418,6 +427,7 @@ export default function Pages() {
     return (<div class="container2">
         <h1 style={{fontSize: "50px"}}>Year Book 2021/2022</h1>
         <img src={Witama} />
+        
         <div class="container">
             {
             Student.map((x, index) => {

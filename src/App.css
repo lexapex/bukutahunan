@@ -18,6 +18,7 @@
   position: relative;
   left: 10%;
   padding-top: 100px;
+  padding-bottom: 1px;
 }
 .container2 > h1 {
   text-align: center;
@@ -30,6 +31,7 @@
 .container {
   background-image: url(./assets/Border.png);
   background-size: 100% 700px;
+  padding-bottom: 10px;
 }
 
 .peoplePhoto {
